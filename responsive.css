@@ -1,9 +1,11 @@
 @media screen and (max-width: 576px) {
-    /* global css style */
+    /* global responsive css style */
     .primary-btn {
         font-size: 15px;
         padding: 15px;
     }
+
+    /* header responsive css style */
     header {
         padding: 50px 11px 45px;
     }
@@ -12,7 +14,7 @@
         margin-bottom: 20px;
     }
     nav {
-    flex-direction: column;
+        flex-direction: column;
     }
     nav li {
         padding-right: 0px;
@@ -26,6 +28,8 @@
     .banner-summary p {
         padding: 15px 10px;
     }
+
+    /* main teams section responsive css style */
     .teams {
         flex-direction: column-reverse;
         margin: 50px 11px;

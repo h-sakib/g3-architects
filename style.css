@@ -22,7 +22,7 @@ a {
     color: var(--heading-color);
 }
 
-.summary-description {
+.primary-description {
     font-size: 16px;
     color: var(--description-color);
     line-height: 28px;
@@ -41,7 +41,7 @@ a {
 
 /* HEADER NAV BAR CSS STYLES */
 header {
-    padding: 50px 161px 45px;
+    padding: 50px 131px 45px;
     background: rgba(255, 144, 14, 0.10);
 }
 
@@ -69,11 +69,11 @@ nav li {
     text-align: center;
 }
 
-.banner-summary p {
+.banner  > p {
     padding: 17px 80px 15px;
 }
 
-.banner .summary-title {
+.banner .banner-title {
     font-size: 64px;
     color: var(--heading-color);
 }
@@ -83,7 +83,7 @@ nav li {
 }
 
 
-/* MAIN CONTENT FEATURE SECTION  CSS STYLES */
+/* MAIN TEAM SECTION  CSS STYLES */
 
 main {
     max-width: 1440px;
@@ -102,15 +102,107 @@ main {
     gap: 22px;
 }
 
-.teams-features {
+.teams-container {
     margin-left: 50px;
 }
 
-.teams-features .more-feature {
+.teams-container .more-style {
     color: #727272;
     font-weight: 500; 
 }
 
-.teams-features .feature-heading {
+.teams-container .style-heading {
     color: #FF900E;
+}
+
+
+/* MAIN FEATURE SECTION  CSS STYLES */
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin: 121px 131px 45px;
+}
+
+.features-content {
+    margin-top: 22px;
+}
+
+.features-content > h1 {
+    margin-bottom: 18px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.features-content > p {
+    margin-bottom: 18px;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    margin: 10px 30px 0 0;
+}
+
+.card .card-title {
+    color: var(--heading-color);
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.features-image {
+    margin-top: 121px;
+}
+
+.features-image img {
+    position: relative;
+    left: 88px;
+}
+
+.experience {
+    background-color: #FF900E;
+    text-align: center;
+    width: 252px;
+    border-radius: 8px;
+    padding: 33px;
+    position: relative;
+    bottom: 105px;
+}
+
+.experience > h1 {
+    font-size: 65px;
+    color: #fff;
+}
+
+.experience > p {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+/* MAIN FACT SECTION  CSS STYLES */
+
+.facts {
+    margin: 121px 131px 45px;
+}
+
+.facts > p {
+    margin-top: 22px;
+}
+
+.facts-card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.card-content {
+    width: 160px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 21px;
 }
