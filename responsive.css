@@ -1,3 +1,41 @@
 @media screen and (max-width: 576px) {
-    
+    /* global css style */
+    .primary-btn {
+        font-size: 15px;
+        padding: 15px;
+    }
+    header {
+        padding: 50px 11px 45px;
+    }
+    .primary-heading {
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    nav {
+    flex-direction: column;
+    }
+    nav li {
+        padding-right: 0px;
+      }
+    .banner {
+        margin-top: 50px;
+    }
+    .banner .summary-title {
+        font-size: 50px;
+    }
+    .banner-summary p {
+        padding: 15px 10px;
+    }
+    .teams {
+        flex-direction: column-reverse;
+        margin: 50px 11px;
+        text-align: left;
+    }
+    .teams .teams-image {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+    .teams-features {
+        margin-left: 10px;
+    }
 }

@@ -45,21 +45,22 @@ header {
     background: rgba(255, 144, 14, 0.10);
 }
 
-.nav-bar {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-bar nav ul {
+nav ul {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style: none;
 }
 
-.nav-bar nav li {
+nav li {
     padding-left: 20px;
 }
+
 
 /* HEADER BANNER CSS STYLES */
 
@@ -79,4 +80,37 @@ header {
 
 .banner img {
     width: 100%;
+}
+
+
+/* MAIN CONTENT FEATURE SECTION  CSS STYLES */
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.teams {
+    display: flex;
+    align-items: center;
+    margin: 100px 160px;
+}
+
+.teams-image {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.teams-features {
+    margin-left: 50px;
+}
+
+.teams-features .more-feature {
+    color: #727272;
+    font-weight: 500; 
+}
+
+.teams-features .feature-heading {
+    color: #FF900E;
 }
