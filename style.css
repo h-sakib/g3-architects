@@ -115,6 +115,10 @@ main {
     color: #FF900E;
 }
 
+.teams-container > p {
+    margin: 10px 0 22px;
+}
+
 
 /* MAIN FEATURE SECTION  CSS STYLES */
 
@@ -204,7 +208,7 @@ main {
     border-radius: 8px;
     border: 1px solid #FF900E;
     text-align: center;
-    padding: 21px;
+    padding: 24px 12px;
 }
 
 
@@ -238,3 +242,5 @@ footer {
     text-align: center;
     padding: 40px 0;
 }
+
+/* ---------- | END |---------- */
